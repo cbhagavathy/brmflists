@@ -1,0 +1,6 @@
+r << xx 1
+0 PIN_FLD_POID           POID [0] 0.0.0.1 /account 8978085
+0 PIN_FLD_BILLINFO_OBJ           POID [0] 0.0.0.1 /billinfo 8975781
+0 PIN_FLD_PROGRAM_NAME    STR [0] "pin_bill_accts"
+xx
+xop PCM_OP_BILL_MAKE_BILL 0 1

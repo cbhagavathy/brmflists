@@ -1,0 +1,12 @@
+r << x 1
+0 PIN_FLD_POID                         POID [0] 0.0.0.1 /account 1 0
+0 PIN_FLD_PROGRAM_NAME                  STR [0] "testnap"
+0 PIN_FLD_FLAGS                         INT [0] 1
+0 PIN_FLD_SERVICES                    ARRAY [0] allocated 20, used 4
+1      PIN_FLD_POID                    POID [0] 0.0.0.1 /service/pcm_client 1
+1      PIN_FLD_PASSWD_CLEAR             STR [0] "NEW_ROOT_PSWD"
+0 PIN_FLD_SERVICES                    ARRAY [2] allocated 20, used 4
+1      PIN_FLD_POID                    POID [0] 0.0.0.1 /service/admin_client 2
+1      PIN_FLD_PASSWD_CLEAR             STR [0] "NEW_ROOT_PSWD"
+x
+xop PCM_OP_CUST_UPDATE_SERVICES 0 1

@@ -1,0 +1,35 @@
+r << x 1
+0 PIN_FLD_POID           POID [0] 0.0.0.1 /plan -1 0
+0 PIN_FLD_ACCTINFO      ARRAY [0] allocated 20, used 1
+1     PIN_FLD_POID           POID [0] 0.0.0.1 /account -1 0
+1     PIN_FLD_ACCOUNT_NO      STR [0] "NEW_USER"
+0 PIN_FLD_NAMEINFO      ARRAY [1] allocated 20, used 7
+1     PIN_FLD_LAST_NAME       STR [0] "user"
+1     PIN_FLD_COUNTRY         STR [0] "USA"
+1     PIN_FLD_FIRST_NAME      STR [0] "root"
+1     PIN_FLD_ZIP             STR [0] "95054"
+1     PIN_FLD_STATE           STR [0] "CA"
+1     PIN_FLD_CITY            STR [0] "Santa Clara"
+1     PIN_FLD_ADDRESS         STR [0] "3979 Freedom Circle\nSuite 400"
+0 PIN_FLD_SERVICES      ARRAY [0] allocated 20, used 5
+1     PIN_FLD_SERVICE_OBJ    POID [0] 0.0.0.1 /service/pcm_client -1 0
+1     PIN_FLD_PASSWD_CLEAR    STR [0] "NEW_PSWD"
+1     PIN_FLD_PASSWD_STATUS   ENUM [0] 1
+1     PIN_FLD_LOGIN           STR [0] "NEW_USER"
+1     PIN_FLD_DEAL_OBJ       POID [0] 0.0.0.0 / 0 0
+1     PIN_FLD_INHERITED_INFO SUBSTRUCT [0] allocated 20, used 1
+2         PIN_FLD_LOCK_INFO    SUBSTRUCT [0] allocated 20, used 2
+3             PIN_FLD_LOCK_STATUS    ENUM [0] 0
+3             PIN_FLD_LOGIN_ATTEMPTS    INT [0] 0
+0 PIN_FLD_SERVICES      ARRAY [1] allocated 20, used 5
+1     PIN_FLD_SERVICE_OBJ    POID [0] 0.0.0.1 /service/admin_client -1 0
+1     PIN_FLD_PASSWD_CLEAR    STR [0] "NEW_PSWD"
+1     PIN_FLD_PASSWD_STATUS   ENUM [0] 1
+1     PIN_FLD_LOGIN           STR [0] "csr_NEW_USER"
+1     PIN_FLD_DEAL_OBJ       POID [0] 0.0.0.0 / 0 0
+1     PIN_FLD_INHERITED_INFO SUBSTRUCT [0] allocated 20, used 1
+2         PIN_FLD_ROLE          ARRAY [assign] allocated 20, used 2
+3             PIN_FLD_APPLICATION     STR [0] "Customer Center"
+3             PIN_FLD_PROFILE_OBJ    POID [0] 0.0.0.1 /service/admin_client ROLE_SERVICE
+x
+xop PCM_OP_CUST_CREATE_CUSTOMER 0 1

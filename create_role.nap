@@ -1,0 +1,573 @@
+r << - 999
+0 PIN_FLD_POID           POID [0] 0.0.0.1 /service/admin_client -1 0
+0 PIN_FLD_NAME            STR [0] "Root Admin"
+0 PIN_FLD_PASSWD_CLEAR    STR [0] "NEW_PSWD"
+0 PIN_FLD_ACCOUNT_OBJ    POID [0] 0.0.0.1 /account 1 0
+0 PIN_FLD_LOGIN           STR [0] "ROLE-Root_Admin"
+0 PIN_FLD_INHERITED_INFO SUBSTRUCT [0] allocated 167, used 114
+1     PIN_FLD_NAME            STR [0] "Root Admin"
+1     PIN_FLD_SERVICE_ADMINCLIENT SUBSTRUCT [0] allocated 20, used 2
+2         PIN_FLD_DESCR           STR [0] "Root Admin Role"
+2         PIN_FLD_PROFILE         INT [0] 1
+1     PIN_FLD_PERMITTEDS    ARRAY [0] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/accountcreate/*"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [1] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/accountcreate/businessaccount"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [2] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/accountcreate/consumeraccount"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [3] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/account/status"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [4] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/adjustment/credit"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000000000000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [5] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/adjustment/debit"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000000000000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [6] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/araccess"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [7] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/balances/balanceMonitoring"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [8] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/billDOM"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [9] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/billfreq"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [10] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/billnow"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [11] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/charge"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000000000000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [12] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/credit"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000000000000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [13] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/creditcard"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [14] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/creditlimit"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000000000000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [15] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/deal/customize"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [16] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/deal/history"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [17] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/debit"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000000000000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [18] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/debitcard"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [19] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/deferredaction/delete"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [20] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/deferredaction/execute"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [21] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/dispute/open"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [22] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/dispute/settle"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [23] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/gsm/number"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [24] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/gsm/sim"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [25] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/login/*"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [26] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/password/*"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [27] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/password/csr"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [28] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/password/email"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [29] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/password/ip"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [30] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/payment/create"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [31] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/payment/move"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [32] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/payment/rename"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [33] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/permissions"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [34] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/product/cancel"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [35] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/product/history"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [36] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/product/modify"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [37] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/product/override"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [38] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/product/purchase"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [39] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/product/status"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [40] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/promotion/add"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [41] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/promotion/delete"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [42] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/promotion/table"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [43] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/refund"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000000000000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [44] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/service/history"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [45] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/service/status/*"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [46] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/charge"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [47] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/charge/global"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [48] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/charge/group/membersinfo"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [49] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/charge/group/membersingrouplink"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [50] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/charge/group/modify"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [51] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/charge/membership/participation"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [52] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/charge/modify_priority"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [53] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/charge/service_future"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [54] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/charge/service_type"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [55] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/discount"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [56] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/discount/group/membersinfo"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [57] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/discount/group/membersingrouplink"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [58] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/discount/group/modify"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [59] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/discount/membership/participation"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [60] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/discount/modify_priority"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [61] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/discount/service_future"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [62] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/discount/service_type"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [63] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/profile"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [64] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/profile/group/membersinfo"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [65] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/profile/group/modify"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [66] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/profile/service_future"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [67] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/sharing/profile/service_type"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [68] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/status/change"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [69] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/status/change/defer"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [70] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/tab/sharing"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [71] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/accounttool/writeoff"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [72] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/appcenter/pcenter"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [73] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/cc/Purchase/AddDeal"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [74] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/cc/Service/Login"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [75] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/cc/Service/Login/csr"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [76] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/ClientTool/CustomerCenter"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [77] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/backdate"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [78] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/bill/adjust"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [79] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/contact"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [80] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/corrective_bill"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [81] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/deal/cancel"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [82] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/event/adjust"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] -100000
+2         PIN_FLD_MINIMUM      DECIMAL [0] 100000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [83] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/event/adjust/37/*"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] -1000
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [84] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/event/adjust/37/7"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] -1000
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [85] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/event/adjust/38/*"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] -1000
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [86] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/event/adjust"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] -5000
+2         PIN_FLD_MINIMUM      DECIMAL [0] 5000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [87] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/event/adjust/excludetax"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] -1000
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [88] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/event/adjust/taxonly"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] -1000
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [89] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/event/dispute"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [90] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/event/settlement"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [91] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/hierarchy"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [92] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/intuitcustom/collectability"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [93] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/item/adjust"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [94] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/item/adjust"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] -100000
+2         PIN_FLD_MINIMUM      DECIMAL [0] 100000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [95] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/item/adjust"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] -1000
+2         PIN_FLD_MINIMUM      DECIMAL [0] 1000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [96] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/item/adjust"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] -5000
+2         PIN_FLD_MINIMUM      DECIMAL [0] 5000
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [97] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/item/dispute"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [98] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/item/settlement"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [99] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/payments/paymethod"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [100] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/plans/productdetails/cycle"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [101] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/plans/productdetails/purchase"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [102] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/plans/productdetails/usage"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [103] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/service/adjust"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [104] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/services/details/email"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [105] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/services/details/ip"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [106] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/sponsorship"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [107] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/subscriber_preference"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [108] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/summary/customertype"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [109] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/summary/securitycode1"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [110] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/summary/securitycode2"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+1     PIN_FLD_PERMITTEDS    ARRAY [111] allocated 20, used 4
+2         PIN_FLD_ACTION          STR [0] "/customercenter/topup"
+2         PIN_FLD_MAXIMUM      DECIMAL [0] 0
+2         PIN_FLD_MINIMUM      DECIMAL [0] 0
+2         PIN_FLD_TYPE           ENUM [0] 2
+-
+xop PCM_OP_CUST_CREATE_SERVICE 0 999

@@ -1,0 +1,33 @@
+0 PIN_FLD_POID           POID [0] 0.0.0.1 /search/pin -1 0
+0 PIN_FLD_FLAGS           INT [0] 768
+0 PIN_FLD_ARGS          ARRAY [1] allocated 20, used 1
+1     PIN_FLD_COLLECTION_DATE TSTAMP [0] (0) <null>
+0 PIN_FLD_ARGS          ARRAY [2] allocated 20, used 1
+1     PIN_FLD_COLLECTION_DATE TSTAMP [0] (1651474800) Mon May  2 00:00:00 2022
+0 PIN_FLD_TEMPLATE        STR [0] "select X from /billinfo 1, /account 2, /payinfo 3 where ( billinfo_t.poid_id0 > 1 and 1.F1 >= V1 and 1.F2 < V2 and 1.F3 = V3 and 1.F4 = V4 and 1.F5 = 3.F6 and 3.F7 = V7 and 1.F8 = 2.F9  and  ( 1.F11 = V11 or ( 1.F12 = V12 and 1.F10 > V10 ) ) ) order by billinfo_t.poid_id0 asc "
+0 PIN_FLD_ARGS          ARRAY [3] allocated 20, used 1
+1     PIN_FLD_STATUS         ENUM [0] 10100
+0 PIN_FLD_ARGS          ARRAY [4] allocated 20, used 1
+1     PIN_FLD_PAY_TYPE       ENUM [0] 10005
+0 PIN_FLD_ARGS          ARRAY [5] allocated 20, used 1
+1     PIN_FLD_PAYINFO_OBJ    POID [0] NULL poid pointer
+0 PIN_FLD_ARGS          ARRAY [6] allocated 20, used 1
+1     PIN_FLD_POID           POID [0] NULL poid pointer
+0 PIN_FLD_ARGS          ARRAY [7] allocated 20, used 1
+1     PIN_FLD_ACH             INT [0] 4
+0 PIN_FLD_ARGS          ARRAY [8] allocated 20, used 1
+1     PIN_FLD_ACCOUNT_OBJ    POID [0] NULL poid pointer
+0 PIN_FLD_ARGS          ARRAY [9] allocated 20, used 1
+1     PIN_FLD_POID           POID [0] NULL poid pointer
+0 PIN_FLD_ARGS          ARRAY [10] allocated 20, used 1
+1     PIN_FLD_PENDING_RECV DECIMAL [0] 0.01
+0 PIN_FLD_ARGS          ARRAY [11] allocated 20, used 1
+1     PIN_FLD_ACTG_TYPE      ENUM [0] 1
+0 PIN_FLD_ARGS          ARRAY [12] allocated 20, used 1
+1     PIN_FLD_ACTG_TYPE      ENUM [0] 2
+0 PIN_FLD_RESULTS       ARRAY [0] allocated 20, used 5
+1     PIN_FLD_POID           POID [0] NULL poid pointer
+1     PIN_FLD_CURRENCY        INT [0] 0
+1     PIN_FLD_PAYINFO_OBJ    POID [0] NULL poid pointer
+1     PIN_FLD_ACCOUNT_OBJ    POID [0] NULL poid pointer
+1     PIN_FLD_PENDING_RECV DECIMAL [0] NULL pin_decimal_t ptr
